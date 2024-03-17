@@ -16,6 +16,7 @@ Set up your python environment. In this tutorial, I used conda to create the env
 
 ```python
  pip install -r requirements.txt  
+ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python
 ```
 
 ## Step 2: File Processing and Database Import
