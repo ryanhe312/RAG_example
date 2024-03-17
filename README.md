@@ -14,9 +14,15 @@ The cornerstone of this setup is Langchain, a framework for developing applicati
 
 Set up your python environment. In this tutorial, I used conda to create the environment and installed the following libraries in a Jupyter environment.
 
-```python
+```bash
  pip install -r requirements.txt  
  CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python
+```
+
+You can run jupyter lab to start a Jupyter environment and open `RAG_example.ipynb` to continue with the tutorial.
+    
+```bash
+jupyter-lab
 ```
 
 ## Step 2: File Processing and Database Import

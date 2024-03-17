@@ -4,4 +4,5 @@ langchain
 PyMuPDF
 chromadb
 sentence-transformers
+jupyterlab
 openai
